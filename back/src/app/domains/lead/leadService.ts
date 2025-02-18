@@ -292,8 +292,6 @@ class LeadService {
     }
   }
   
-
-  
   public async get (_params:{_id:string}) {
     try{
       const lead = await Lead.findOne({_id: _params._id})

@@ -38,6 +38,7 @@ class DataBaseUtility {
 
   public connectMongo = async () => {
     try{
+      console.log(config.databases.mongo[config.mode].uri);
       this.mongo_con = await mongoose.connect(config.databases.mongo[config.mode].uri, {})
       console.log(`Mongo contented`)
     } catch (error) {

@@ -7,7 +7,7 @@ export default {
   databases: {
     mongo:{
       dev: {
-        uri: 'mongodb://127.0.0.1:27017/kuepa_test?retryWrites=true&w=majority&appName=Test'
+        uri: 'mongodb+srv://estebanruiz13es:kNF4LjZJb69qC7nV@cluster0.d9jgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
       }
     }
   },

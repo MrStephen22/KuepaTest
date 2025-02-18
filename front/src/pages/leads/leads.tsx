@@ -1,6 +1,7 @@
 import { app } from "@/atoms/kuepa"
 import { useEffect } from "react"
 import { useTranslation } from "react-i18next"
+import ProspectForm from "./form/ProspectForm "
 
 export interface LeadsProps {
 }
@@ -25,7 +26,7 @@ export default function Leads (props?: LeadsProps) {
   }, [])
   return (
     <>
-      <h1 className="flex text-4xl font-title text-purple-800">!Hola!</h1>
+      <ProspectForm/>
     </>
   )
 }

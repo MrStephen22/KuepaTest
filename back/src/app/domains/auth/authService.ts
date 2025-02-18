@@ -112,6 +112,7 @@ class AuthService {
       console.log('error', error)
     }
   }
+  
   public async register (_params) {
     try{
       let user = await User.findOne({username:_params.username}).lean()

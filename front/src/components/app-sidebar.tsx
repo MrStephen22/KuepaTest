@@ -38,7 +38,7 @@ const data:any = {
       can: 'sidebar:crm',
       items: [
         {
-          title: "Contactos",
+          title: "Prospecto",
           icon: TbHeartHandshake,
           url: "/leads",
           can: 'crm:leads',
